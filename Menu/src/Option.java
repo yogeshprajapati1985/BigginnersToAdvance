@@ -41,11 +41,13 @@ public class Option {
 		case 7:
 			System.out.println("Thank you for visiting");
 			break;
+		default:
+			complimentary();
 			
 		}
 	}
 public void coldDrinks() {
-	//int select1;
+	// selected 1 
 	System.out.println("You have selected cold drings.");
 	System.out.println("Here are the available cold drinks");
 	System.out.println("| 1. Mojito Mocktail |");
@@ -54,6 +56,7 @@ public void coldDrinks() {
 	System.out.println("| 4. Nectar |");
 }
 public void coffee() {
+	// selected 2
 	System.out.println("You have selected Coffee");
 	System.out.println("Here are the available Coffee");
 	System.out.println("| 1. cold coffee |");
@@ -62,6 +65,7 @@ public void coffee() {
 	System.out.println("| 4. Cappuccino |");
 }
 public void tea() {
+	// selected 3
 	System.out.println("You have selected Tea");
 	System.out.println("Here are the available Tea");
 	System.out.println("| 1. Green Tea |");
@@ -70,6 +74,7 @@ public void tea() {
 	System.out.println("| 4. Black Tea|");
 }
 public void shakes() {
+	// selected 4
 	System.out.println("You have selected Shakes");
 	System.out.println("Here are the availale Shakes");
 	System.out.println("| 1. Orea Shake |");
@@ -79,6 +84,7 @@ public void shakes() {
 	
 }
 public void pizza() {
+	// selected 5
 	System.out.println("You have selected Pizza");
 	System.out.println("Here are the available Pizza");
 	System.out.println("| 1. Margareta Pizza |");
@@ -87,18 +93,25 @@ public void pizza() {
 	System.out.println("| 4. Onion N Capsicum|");
 }
 public void sandwitch() {
+	//selected 6
 	System.out.println("You have selected Sandwitch");
 	System.out.println("Here are the available Sandwitch");
 	System.out.println("| 1. Vegitable Sandwitch |");
 	System.out.println("| 2. Plain alloo matar Sandwitch |");
 	System.out.println("| 3. Club Sandwitch |");
 	System.out.println("| 4. Chocolate slice |");
-
+}
+public void complimentary() {
+	//default
+	System.out.println("Here are the complimentary from the hotel ");
+	System.out.println("| 1. water |");
+	System.out.println("| 2. tea |");
+	System.out.println("| 3. rosted papad |");
 }
 
 	public static void main(String[] args) {
-		Option a = new Option();
-		a.mainMenu();
+		Option a = new Option();  // created object of class
+		a.mainMenu();             // called the method with the help of the object
 
 	}
 
