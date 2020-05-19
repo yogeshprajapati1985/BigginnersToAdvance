@@ -1,4 +1,7 @@
-//program for login page
+/*<h1> This is the program for login page</h1>
+ * <p>with the help of database connectivity one can store the big amount of username and password detail. This will make sure that the person who is trying to login is the person himself/herself not the malicious. </p>
+ * <p>After the successful login, one can access their account.</p>
+ */
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;

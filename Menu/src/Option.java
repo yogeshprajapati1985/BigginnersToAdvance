@@ -1,3 +1,7 @@
+/**
+ * <h1>This is the menu program which is used for ordering the food online in the restorent.</h1>
+ * <p>There are hundreds of customers in the 5 stars restorents and cafes.one must to wait sometime to give the order.</p>
+ * <p>With the help of this program based application one can give online order and save lots of time.</p>  */
 import java.util.Scanner;
 public class Option {
 	Scanner sc = new Scanner(System.in);

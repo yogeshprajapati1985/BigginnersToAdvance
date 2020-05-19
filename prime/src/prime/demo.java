@@ -1,3 +1,7 @@
+/**
+ * <h1>This prime number program is used for finding the prime number.</h1>
+ * <p>This program will find if the given number is prime or not. When you give a number it will check if the conditions for the prime number is satisfied or not. If yes than it will return that the number is prime.</p>
+ */
 package prime;
 import java.util.Scanner;
 class First{
